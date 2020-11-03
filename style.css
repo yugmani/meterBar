@@ -1,0 +1,40 @@
+.container {
+  margin: 0 auto;
+  width: 60%;
+  background-color: lightgray;
+  color: black;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+#qform {
+  margin: 0 auto;
+  width: 80%;
+  background-color: whitesmoke;
+  padding: 15px;
+}
+
+#grade {
+  margin: 0 auto;
+  width: 80%;
+  min-height: 100px;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+meter {
+  width: 80%;
+  min-height: 80px;
+  padding: 10px;
+}
+
+input[type="text"] {
+  display: inline-block;
+  background-color: white;
+}
