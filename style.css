@@ -1,6 +1,7 @@
 .container {
   margin: 0 auto;
   width: 60%;
+  height: auto;
   background-color: lightgray;
   color: black;
   padding: 10px;
@@ -18,19 +19,22 @@ h1 {
   padding: 15px;
 }
 
-#grade {
+#grade,
+#progress {
   margin: 0 auto;
   width: 80%;
-  min-height: 100px;
+  height: 100px;
   /* padding: 10px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-meter {
-  width: 80%;
-  min-height: 80px;
+meter,
+progress {
+  -webkit-appearacne: none;
+  width: 500px;
+  height: 100%;
   padding: 10px;
 }
 
